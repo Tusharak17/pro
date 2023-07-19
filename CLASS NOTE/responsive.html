@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        .box{
+            width: 70rem;
+            height: 20vh;
+            background-color:#580909 ;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sub{
+            height: 15rem;
+            width: 15rem;
+            background-color: green;
+            margin: 0.5rem;
+        }
+        /* Table */
+        @media (max-width:1300px){
+            .box{
+                background-color: green;
+            }
+        }
+
+        /* Mobiles */
+        @media (max-width:400px){
+            .box{
+                background-color: gray;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        vh -> view height
+        vw -> view width
+        rem -> Font size, width height
+     -->
+     <div class="box"></div>
+     <div class="main">
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+     </div>
+</body>
+</html>

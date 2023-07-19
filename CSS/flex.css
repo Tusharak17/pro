@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.emp{
+    margin: 1%;
+    border: 3px solid black;
+    height: 142px;
+    width: 110px;
+
+}
+.imglogo{
+    width: 100px;
+    height: 100px;
+}

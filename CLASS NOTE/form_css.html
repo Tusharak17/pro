@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Form Desigm</title>
+        <style>
+            body{
+                background-color: thistle;
+            }
+            form{
+                width: 70%;
+                /* border: 2px solid rgb(23, 2, 23); */
+                background-color: rgba(240, 248, 255, 0);
+                position: absolute;
+                top: 25%;
+                left: 15%;
+                font-size: 20px;
+                color: rgb(46, 4, 46);
+                font-family: Arial, Helvetica, sans-serif;
+                box-shadow: 0px 0px 500px 2px rgb(45, 2, 45);
+            }
+
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+                margin: 2%;
+            }
+            .forlabel{
+                width: 30%;
+            }
+            .forinput{
+                width: 60%;
+                /* border: 0px solid black; */
+            }
+            input{
+                width: 100%;
+                border: none;
+                border-bottom: 2px solid rgb(45, 2, 45);
+                background-color: rgba(255, 255, 255, 0);
+            }
+            input:focus{
+                outline: none;
+            }
+            input[type=submit]{
+                width: 20%;
+                padding: 1%;
+                font-weight: 900;
+                color:rgb(45, 2, 45);
+                margin-left: 30%;
+                border: 2px solid rgb(45, 2, 45);
+                transition-duration: 0.5s;
+            }
+            input[type=submit]:hover{
+                box-shadow: 4px 4px rgb(45, 2, 45);
+            }
+        </style>
+    </head>
+    <body>
+        
+        <form>
+            <div class="main">
+                <div class="forlabel">
+                    <label>Name : </label>
+                </div>
+                <div class="forinput">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="main">
+                <div class="forlabel">
+                    <label>User Name : </label>
+                </div>
+                <div class="forinput">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="main">
+                <div class="forlabel">
+                    <label>User Email : </label>
+                </div>
+                <div class="forinput">
+                    <input type="email">
+                </div>
+            </div>
+            <div class="main">
+                <div class="forlabel">
+                    <label>Password : </label>
+                </div>
+                <div class="forinput">
+                    <input type="password">
+                </div>
+            </div>
+            <div class="main">
+                <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 12px dashed black;
+    text-align: center;
+    background-color: crimson;
+    margin: 2%;
+    /* transition-duration: 50s; */
+    /* transition-delay: 2s; */
+    transition: height 20s , width 10s,background-color 10s;
+}
+.box:hover{
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    color: black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+

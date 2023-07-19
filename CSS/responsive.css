@@ -1,0 +1,32 @@
+.box {
+    width: 70vw;
+    height: 20vh;
+    background-color: lightseagreen;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub{
+    background-color: darksalmon;
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem;
+}
+
+
+/* Tablet */
+@media (max-width:1300px){
+    .box{
+        background-color: darkred;
+    }
+}
+
+/* mobile */
+@media (max-width:400px) {
+    .box{
+        background-color: darkgray;
+    }
+}

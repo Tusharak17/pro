@@ -1,0 +1,25 @@
+.static{
+    background-color:lightcoral;
+    /* position always static */
+    position: static;
+}
+
+.relative{
+    background-color: lightgreen;
+    color: black;
+    /* margin: 10px; */
+    position: relative;
+    left: 20px;
+    top: 5px;   
+}
+
+.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: lightblue;
+}
+.fixed{
+    position: fixed;
+    background-color: lightcoral;
+    bottom: 0px;
+}

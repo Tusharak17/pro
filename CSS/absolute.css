@@ -1,0 +1,25 @@
+/* absolute work with relative position not work sepretly.. */
+/* absolute element ko hamesa base element me relative chaiye hota he */
+
+.relative{
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    position: relative;
+    /* background-color: lightcoral; */
+    color: black;
+    /* opacity: 1;    */
+    /* opacity work on visiblity  */
+
+}
+
+.absolute{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: lightslategrey;
+    top: 0px;
+     z-index: -1; 
+
+     /* z-index showing priority plus minus karta he */
+}

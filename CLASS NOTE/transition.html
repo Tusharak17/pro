@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Hover</title>
+        <style>
+            .main{
+                display: flex;
+                background-color: bisque;
+                height: 100%;
+            }
+            .box{
+                height: 100px;
+                width: 100px;
+                background-color: green;
+                /* transition-duration: 10s;
+                transition-delay: 2s; */
+                transition: height 60s,background-color 2s;
+                margin: 1%;
+            }
+            .box:hover{
+                height: 100%;
+                background-color: brown;
+                width: 300px;
+            }
+             /* Transistion Work only in hover effect  */
+        </style>
+    </head>
+    <body>
+        <div class="main">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    </body>
+</html>

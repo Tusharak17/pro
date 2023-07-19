@@ -1,0 +1,14 @@
+.shadow{
+    text-align: center;
+    font-size: 800%;
+    width: 50%;
+    margin-left: 268px;
+    margin-top: 50px;
+    color: white;
+
+    /* Horizontal Vertical Groove color */
+    text-shadow: 0px 0px 7px red ,  2px 2px 5px green ,  0px 0px 31px blue;
+
+     /* horizontal vertial groove fourSide color  */
+    box-shadow: 0px 0px 50px 10px red;
+}
